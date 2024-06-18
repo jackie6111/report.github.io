@@ -1,0 +1,147 @@
+@media screen and ( max-width:1023px){
+    
+
+/* 頁首 */
+header {
+    background-color:rgb(219, 215, 210);
+    height: 100px; 
+    width: 100%;
+    display: flex;
+}
+img{
+    display: block; 
+    width: 100%;
+}
+/* 泡泡工藝 */
+h1{ 
+
+    color:rgb(116, 107, 90) ;
+    position: absolute;  /* 絕對定位 */
+    left: 130px;  /* logo的寬度 */
+   
+    line-height: 60px; /* 自中文字 文字行距等同於頁首高度 */
+   
+    background-image: url(images.css/FoamCraft\ logo.svg); /* 背景logo圖片 */
+    background-repeat: no-repeat; 
+    background-position: center; /* logo 位置移至中央 */
+    width: 280px;
+    text-indent: -9999px;  /* 無法刪h1 將h1 [肥皂工藝]的文字推到很遠的地方 */
+}
+/* 品牌故事 商品系列 .... */
+
+header ul { 
+    list-style: none; /* 消除目錄點點 */
+    padding: 100px 220px;
+    position:fixed; 
+}
+header li a {
+    text-decoration: none;    /* 消除文字底線 */
+}
+
+/* 愛心推車禮物 */
+
+header nav ul li a img {
+    width: 20px; /* 設置圖示寬度 */
+    height: 42px; /* 讓高度自動調整，保持圖片比例 */
+   
+}
+header nav ul li:nth-last-child(-n+3) {
+    margin-top: -10px; /* 往下移動 */
+    position:fixed; 
+
+}
+/* 愛心推車禮物 */
+
+/* 植萃芯肌 手工皂  */
+.news{
+    height: 120vh;
+    background-image: url(images.css/背景.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  /* 覆蓋整頁 */
+    background-position: center;
+    
+
+}
+/* 植萃芯肌 手工皂  */
+.news h3{
+padding: 50px;
+font-size:60px ;
+margin: 200px 80px 80px 80px ;
+background-color:rgba(219, 210, 195, 0.454);
+border-radius: 10px; /* 圓角效果 */
+}
+/* 膚質專屬洗臉皂 專為不同性別....*/
+.news p {
+    padding: 50px;
+    margin: 10px 0;
+background-color:rgba(238, 234, 228, 0.356);
+flex-direction: column;
+
+}
+/* 瞭解更多 */
+.news a {
+    
+    font-size:  20px;
+    color:rgb(212, 205, 192);
+    background-color:rgb(116, 107, 90);
+    text-decoration: none;  /* 移除超連結的底線 */
+    border: 1px solid rgb(212, 205, 192);
+    padding: 10px 70px;
+    border-radius: 10px; /* 圓角效果 */
+ 
+
+}
+/* 肥皂可生物分解 */
+.slogan{
+    color:rgb(116, 107, 90);  
+    text-align: center;
+    height: 130px;  /* 區塊高度 */
+    display: flex;
+    justify-content: center; /* 水平居中對齊 */
+    align-items: center; /* 垂直居中對齊 */
+    font-size: 15px;
+    line-height: 1.8em;
+    padding: 50px;
+}
+
+/* 裡面有什麼？ */
+.info {
+    /* background-color:rgb(219, 215, 210); */
+
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.info h4{
+ 
+   color:rgb(116, 107, 90) ;
+   text-align: center;
+   font-size: 40px;
+   margin-bottom: -20px;
+
+}    
+.info p{
+   text-align: center;
+   line-height: 2em;
+   padding: 50px;
+}
+
+/* 頁尾 */
+.footer{
+    background-color:rgb(219, 215, 210);
+    height: 100px;  /* 區塊高度 */
+    display: flex;
+    padding: 30px;
+
+    
+    justify-content:  center; /* 水平居中對齊 */
+    align-items: center; /* 垂直居中對齊 */
+    font-size: 15px;
+    line-height: 2em;
+    
+}
+
+}

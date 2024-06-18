@@ -1,0 +1,13 @@
+@import url(mobile.css);
+@import url(desktop.css);
+* { box-sizing: border-box;}
+    
+    
+ h3{ 
+    color:rgb(116, 107, 90);    
+}
+header a{
+    color:rgb(116, 107, 90);
+}
+h2{ color:rgb(116, 107, 90); }
+p{ color:rgb(116, 107, 90);}
